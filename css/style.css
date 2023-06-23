@@ -26,7 +26,19 @@ p {
     font-size: 72px;
     font-weight: 600;
 }
+#lower-text {
+    font-size: 58px;
+    font-weight: 450;
+}
 
+#body-text-work {
+    font-size: 54px;
+    font-weight: 500;
+}
+#lower-text-work {
+    font-size: 36px;
+    font-weight: 450;
+} 
 #dallas-style {
     color: #7F9695;
     font-weight: bold;
@@ -47,10 +59,6 @@ p {
     font-weight: bold;
 }
 
-#lower-text {
-    font-size: 58px;
-    font-weight: 450;
-}
 
 #footer-style {
     font-size: 24px;
