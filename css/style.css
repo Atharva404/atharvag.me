@@ -13,7 +13,7 @@ div {
 .box {
     display: grid;
     grid-template-columns: repeat(1, 700px);
-    grid-template-rows: repeat(2, 325px);
+    grid-template-rows: repeat(1, 400px);
     padding-left: 170px;
     gap: 0px;
 }
@@ -25,6 +25,11 @@ p {
 #body-text {
     font-size: 72px;
     font-weight: 600;
+}
+
+#purdue-style {
+    color: #C28E0E;
+    text-decoration: none;
 }
 
 #lower-text {
