@@ -18,6 +18,23 @@ div {
     gap: 5px;
 }
 
+.tile {
+    display: inline;
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+    margin-left: 15px;
+    border: solid 3px black;
+}
+.start-tile {
+    display: inline;
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: solid 3px black;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
@@ -67,7 +84,6 @@ p {
     text-decoration: none;
     font-weight: bold;
 }
-
 #footer-style {
     font-size: 24px;
 }
@@ -82,3 +98,4 @@ p {
     display: block;
     text-align: left;
 }
+
