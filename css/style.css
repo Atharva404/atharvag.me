@@ -10,31 +10,6 @@ div {
     display: flex;
     flex-direction: row;
 }
-/* TYPOGRAPHY */
-@font-face {
-    font-family: 'SF-Display';
-    src: url(../fonts/SF-Pro-Display-Bold.woff);
-}
-@font-face {
-    font-family: 'SF-Display';
-    src: url(../fonts/SF-Pro-Display-Medium.woff);
-}
-@font-face {
-    font-family: 'SF-Display';
-    src: url(../fonts/SF-Pro-Display-Regular.woff);
-}
-@font-face {
-    font-family: 'SF-Text';
-    src: url(../fonts/SF-Pro-Text-Bold.woff);
-}
-@font-face {
-    font-family: 'SF-Text';
-    src: url(../fonts/SF-Pro-Text-Medium.woff);
-}
-@font-face {
-    font-family: 'SF-Text';
-    src: url(../fonts/SF-Pro-Text-Regular.woff);
-}
 #body-text {
     font-size: 72px;
     font-weight: 600;
@@ -46,4 +21,7 @@ div {
 }
 h5 {
     color: black !important;
+}
+p {
+    font-family: 'SF-Display';
 }
