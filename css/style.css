@@ -10,6 +10,18 @@ div {
     display: flex;
     flex-direction: row;
 }
+.box {
+    display: grid;
+    grid-template-columns: repeat(1, 700px);
+    grid-template-rows: repeat(2, 325px);
+    padding-left: 170px;
+    gap: 0px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 525;
+}
 #body-text {
     font-size: 72px;
     font-weight: 600;
@@ -24,4 +36,6 @@ h5 {
 }
 p {
     font-family: 'SF-Display';
+    display: block;
+    text-align: left;
 }
