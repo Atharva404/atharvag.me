@@ -26,7 +26,10 @@ p {
     font-size: 72px;
     font-weight: 600;
 }
-
+#github-style {
+    color: rgb(43, 189, 194);
+    text-decoration: none;
+}
 #purdue-style {
     color: #C28E0E;
     text-decoration: none;
