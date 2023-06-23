@@ -18,8 +18,22 @@ div {
     gap: 5px;
 }
 
+.course-box {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(3, 250px);
+    padding-left: 170px;
+    gap: 5px;
+}
 .projects {
     text-align: center;
+}
+.education {
+    list-style: none;
+    display: flex;
+    position: relative;
+    min-height: 70px;
+    justify-content: center;
 }
 
 .tile {
@@ -29,7 +43,9 @@ div {
     border-radius: 20px;
     margin-left: 15px;
 }
-
+#title-right {
+    margin-left: 100px;
+}
 .start-tile {
     display: inline;
     height: 350px;
