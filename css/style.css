@@ -1,86 +1,49 @@
 .container {
     padding-top: 30px;
 }
-
+div {
+    display: block;
+    padding-left: 10px;
+}
+.body-container {
+    padding-left: 155px;
+    display: flex;
+    flex-direction: row;
+}
 /* TYPOGRAPHY */
 @font-face {
     font-family: 'SF-Display';
     src: url(../fonts/SF-Pro-Display-Bold.woff);
-    font-weight: bold;
 }
 @font-face {
     font-family: 'SF-Display';
     src: url(../fonts/SF-Pro-Display-Medium.woff);
-    font-weight: 500;
 }
 @font-face {
     font-family: 'SF-Display';
     src: url(../fonts/SF-Pro-Display-Regular.woff);
-    font-weight: normal;
 }
 @font-face {
     font-family: 'SF-Text';
     src: url(../fonts/SF-Pro-Text-Bold.woff);
-    font-weight: bold;
 }
 @font-face {
     font-family: 'SF-Text';
     src: url(../fonts/SF-Pro-Text-Medium.woff);
-    font-weight: 500;
 }
 @font-face {
     font-family: 'SF-Text';
     src: url(../fonts/SF-Pro-Text-Regular.woff);
-    font-weight: normal;
+}
+#body-text {
+    font-size: 72px;
+    font-weight: 600;
 }
 
-h1 {
-    font-family: 'SF-Display';
-    font-size: 36px;    
-    font-weight: bold;
-    line-height: inherit;
-    margin: 0;
-}
-h2 {
-    font-family: 'SF-Display';
-    font-size: 36px;    
-    font-weight: bold;
-    line-height: 150%;
-    margin: 0;
-}
-h3 {
-    font-family: 'SF-Display';
-    font-size: 18px;    
-    font-weight: bold;
-    line-height: inherit;
-    margin: 0;
-}
-h4 {
-    font-family: 'SF-Display';
-    font-size: 18px;    
-    font-weight: bold;
-    line-height: inherit;
-    margin: 0;
+#lower-text {
+    font-size: 58px;
+    font-weight: 450;
 }
 h5 {
-    font-family: 'SF-Display';
-    font-size: 16px;    
-    font-weight: bold;
-    line-height: inherit;
     color: black !important;
-    margin: 0;
-}
-h6 {
-    font-family: 'SF-Text';
-    font-size: 14px;    
-    font-weight: bold;
-    line-height: inherit;
-    margin: 0;
-}
-p, li {
-    font-family: 'SF-Display';
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 150%;
-    margin: 0;
 }
