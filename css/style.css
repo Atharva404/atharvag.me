@@ -18,21 +18,24 @@ div {
     gap: 5px;
 }
 
+.projects {
+    text-align: center;
+}
+
 .tile {
     display: inline;
-    height: 300px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     border-radius: 20px;
     margin-left: 15px;
-    border: solid 3px black;
 }
+
 .start-tile {
     display: inline;
-    height: 300px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
     border-radius: 20px;
     margin-left: 50px;
-    border: solid 3px black;
 }
 
 p {
