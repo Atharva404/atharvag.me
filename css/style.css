@@ -29,18 +29,22 @@ p {
 
 #dallas-style {
     color: #7F9695;
+    font-weight: bold;
 }
 
 #mavs-style {
     color: #00538C;
+    font-weight: bold;
 }
 #github-style {
     color: rgb(0, 102, 165);
     text-decoration: none;
+    font-weight: bold;
 }
 #purdue-style {
     color: #C28E0E;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #lower-text {
