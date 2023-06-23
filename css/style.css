@@ -35,6 +35,7 @@ div {
     min-height: 70px;
     justify-content: center;
 }
+
 .tile {
     display: inline;
     height: 350px;
@@ -112,7 +113,18 @@ h5 {
 }
 p {
     font-family: 'SF-Display';
+    font-size: 28px;
     display: block;
     text-align: left;
 }
 
+button {
+    background-color: #3399CC;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.round {
+    border-radius: 10px;
+}
