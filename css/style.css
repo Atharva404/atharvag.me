@@ -1,4 +1,4 @@
-.container {
+.container-nav {
     padding-top: 30px;
 }
 div {
@@ -22,6 +22,14 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 525;
+}
+
+#tag-line {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 #body-text {
     font-size: 72px;
