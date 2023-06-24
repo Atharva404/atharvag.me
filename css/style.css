@@ -121,7 +121,7 @@ p {
 }
 
 button {
-    background-color: #3d3d3c;
+    background-color: #6ba1c4;
     color: white;
     border: none;
     padding: 10px;
@@ -129,4 +129,11 @@ button {
 
 .round {
     border-radius: 10px;
+}
+
+.scroll {
+    padding-top: 1.5em;
+    padding-left: 0.5em;
+    overflow-x: scroll;
+    white-space: nowrap;
 }
