@@ -17,7 +17,9 @@ div {
     padding-left: 170px;
     gap: 5px;
 }
-
+.container {
+    text-align: left;
+}
 .course-box {
     display: grid;
     grid-template-columns: repeat(2, 500px);
