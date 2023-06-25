@@ -1,3 +1,6 @@
+html{
+    scroll-behaviour : smooth;
+} 
 .container-nav {
     padding-top: 30px;
 }
@@ -24,6 +27,15 @@ div {
     display: grid;
     grid-template-columns: repeat(2, 500px);
     grid-template-rows: repeat(3, 250px);
+    padding-left: 170px;
+    gap: 5px;
+}
+.project-box {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(1, 250px);
     padding-left: 170px;
     gap: 5px;
 }
