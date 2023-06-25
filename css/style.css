@@ -132,8 +132,47 @@ button {
 }
 
 .scroll {
-    padding-top: 1.5em;
-    padding-left: 0.5em;
+    padding-top: 20px;
     overflow-x: scroll;
     white-space: nowrap;
+}
+
+.photos {
+    width: 650px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#photos-church {
+    width: 350px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.align-pictures {
+    display: block;
+    grid-column: 2 / 12;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 155px;
+}
+
+#add-photo-spain {
+    font-size: 80px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/IMG-1714.jpg');
+}
+
+#add-photo-mexico {
+    font-size: 80px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/28F24B30-BF2A-4ED5-8C55-3FDFCF55BDC0.JPG');
 }
