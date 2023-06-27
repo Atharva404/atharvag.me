@@ -2,22 +2,22 @@ html{
     scroll-behaviour : smooth;
 } 
 .container-nav {
-    padding-top: 30px;
+    padding-top: 1.875em;
 }
 div {
     display: block;
-    padding-left: 10px;
+    padding-left: 0.615em;
 }
 .body-container {
-    padding-left: 155px;
+    padding-left: 9.688vw;
     display: flex;
     flex-direction: row;
 }
 .box {
     display: grid;
-    grid-template-columns: repeat(1, 700px);
-    grid-template-rows: repeat(1, 230px);
-    padding-left: 170px;
+    grid-template-columns: repeat(1, 43.75vw);
+    grid-template-rows: repeat(1, 14.275vw);
+    padding-left: 10.625vw;
     gap: 5px;
 }
 .container {
@@ -25,18 +25,18 @@ div {
 }
 .course-box {
     display: grid;
-    grid-template-columns: repeat(2, 500px);
-    grid-template-rows: repeat(3, 250px);
-    padding-left: 170px;
+    grid-template-columns: repeat(2, 31.25vw);
+    grid-template-rows: repeat(3, 15.625vw);
+    padding-left: 10.625vw;
     gap: 5px;
 }
 .project-box {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 6.25vw;
+    margin-bottom: 3.125vw;
     display: grid;
-    grid-template-columns: repeat(2, 500px);
-    grid-template-rows: repeat(1, 250px);
-    padding-left: 170px;
+    grid-template-columns: repeat(2, 31.25vw);
+    grid-template-rows: repeat(1, 15.625vw);
+    padding-left: 10.625vw;
     gap: 5px;
 }
 .projects {
@@ -46,30 +46,30 @@ div {
     list-style: none;
     display: flex;
     position: relative;
-    min-height: 70px;
+    min-height: 4.375vw;
     justify-content: center;
 }
 
 .tile {
     display: inline;
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
-    margin-left: 15px;
+    height: 21.875vw;
+    width: 21.875vw;
+    border-radius: 1.25vw;
+    margin-left: 0.928vw;
 }
 #title-right {
-    margin-left: 100px;
+    margin-left: 6.25vw;
 }
 .start-tile {
     display: inline;
-    height: 350px;
-    width: 350px;
-    border-radius: 20px;
+    height: 21.875vw;
+    width: 21.875vw;
+    border-radius: 1.25vw;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 1.75vw;
     font-weight: 525;
 }
 
@@ -81,20 +81,20 @@ p {
     text-align: center;
 }
 #body-text {
-    font-size: 72px;
+    font-size: 4.5vw;
     font-weight: 600;
 }
 #lower-text {
-    font-size: 58px;
+    font-size: 3.625vw;
     font-weight: 450;
 }
 
 #body-text-work {
-    font-size: 54px;
+    font-size: 3.375vw;
     font-weight: 500;
 }
 #lower-text-work {
-    font-size: 36px;
+    font-size: 2.25vw;
     font-weight: 450;
 } 
 #dallas-style {
@@ -117,17 +117,17 @@ p {
     font-weight: bold;
 }
 #footer-style {
-    font-size: 24px;
+    font-size: 1.5vw;
 }
 .icon {
-    height: 35px;
+    height: 2.188vw;
 }
 h5 {
     color: black !important;
 }
 p {
     font-family: 'SF-Display';
-    font-size: 28px;
+    font-size: 1.75vw;
     display: block;
     text-align: left;
 }
@@ -136,7 +136,7 @@ button {
     background-color: #6ba1c4;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .round {
@@ -144,35 +144,35 @@ button {
 }
 
 .scroll {
-    padding-top: 20px;
+    padding-top: 1.25vw;
     overflow-x: scroll;
     white-space: nowrap;
 }
 
 .photos {
-    width: 650px;
-    height: 400px;
-    border-radius: 20px;
-    margin-right: 20px;
+    width: 40.625vw;
+    height: 25vw;
+    border-radius: 1.25vw;
+    margin-right: 1.25vw;
 }
 
 #photos-church {
-    width: 350px;
-    height: 400px;
-    margin-right: 20px;
-    border-radius: 20px;
+    width: 21.875vw;
+    height: 25vw;
+    margin-right: 1.25vw;
+    border-radius: 1.25em;
 }
 
 .align-pictures {
     display: block;
     grid-column: 2 / 12;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 155px;
+    margin-top: 1.875vw;
+    margin-bottom: 1.875vw;
+    margin-left: 9.688vw;
 }
 
 #add-photo-spain {
-    font-size: 80px;
+    font-size: 5vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -181,7 +181,7 @@ button {
 }
 
 #add-photo-mexico {
-    font-size: 80px;
+    font-size: 5vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
