@@ -1,5 +1,5 @@
 html{
-    scroll-behaviour : smooth;
+    scroll-behavior: smooth;
 } 
 .container-nav {
     padding-top: 1.875em;
@@ -27,7 +27,8 @@ div {
     display: grid;
     grid-template-columns: repeat(2, 31.25vw);
     grid-template-rows: repeat(3, 15.625vw);
-    padding-left: 10.625vw;
+    text-align: center;
+    padding-left: 11vw;
     gap: 5px;
 }
 .project-box {
@@ -75,6 +76,7 @@ p {
 
 #tag-line {
     padding-top: 5%;
+    font-size: 2.8vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,11 +138,11 @@ button {
     background-color: #6ba1c4;
     color: white;
     border: none;
-    padding: 0.625em;
+    padding: 0.5vw;
 }
 
 .round {
-    border-radius: 10px;
+    border-radius: 0.3em;
 }
 
 .scroll {
