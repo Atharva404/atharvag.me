@@ -69,7 +69,6 @@ div {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.75vw;
     font-weight: 525;
 }
@@ -119,7 +118,7 @@ p {
     font-weight: bold;
 }
 #footer-style {
-    font-size: 2vw;
+    font-size: 1.6vw;
 }
 .icon {
     height: 2.188vw;
@@ -174,7 +173,7 @@ button {
 }
 
 #add-photo-spain {
-    font-size: 5vw;
+    font-size: 4vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -183,7 +182,7 @@ button {
 }
 
 #add-photo-mexico {
-    font-size: 5vw;
+    font-size: 4vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
