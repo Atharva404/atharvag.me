@@ -16,7 +16,7 @@ div {
 .box {
     display: grid;
     grid-template-columns: repeat(1, 43.75vw);
-    grid-template-rows: repeat(1, 14.275vw);
+    grid-template-rows: repeat(3);
     padding-left: 10.625vw;
     gap: 5px;
 }
