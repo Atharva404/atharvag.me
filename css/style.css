@@ -15,7 +15,7 @@ div {
 }
 .box {
     display: grid;
-    grid-template-columns: repeat(1, 43.75vw);
+    grid-template-columns: repeat(2, 43.75vw);
     grid-template-rows: repeat(3);
     padding-left: 10.625vw;
     gap: 5px;
@@ -98,14 +98,10 @@ p {
     font-size: 2.25vw;
     font-weight: 450;
 } 
-#dallas-style {
-    color: #7F9695;
-    font-weight: bold;
-}
-
-#mavs-style {
+#travel-style {
     color: #00538C;
     font-weight: bold;
+    text-decoration: none;
 }
 #github-style {
     color: rgb(0, 102, 165);
