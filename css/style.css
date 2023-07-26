@@ -160,6 +160,13 @@ button {
     border-radius: 1.25vw;
 }
 
+#photos-portrait {
+    width: 21.875vw;
+    height: 25vw;
+    margin-right: 1.25vw;
+    border-radius: 1.25vw;
+}
+
 .align-pictures {
     display: block;
     grid-column: 2 / 12;
@@ -177,6 +184,14 @@ button {
 	background-image: url('../image/spain2.jpg');
 }
 
+#add-photo-london {
+    font-size: 4vw;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/London1.JPG');
+}
 #add-photo-mexico {
     font-size: 4vw;
 	font-weight: 700;
@@ -184,6 +199,22 @@ button {
 	-webkit-background-clip: text;
 	color: transparent;
 	background-image: url('../image/cancun.JPG');
+}
+#add-photo-zurich {
+    font-size: 4vw;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/zuric1.JPG');
+}
+#add-photo-paris {
+    font-size: 4vw;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/Paris3.JPG');
 }
 
 p {
