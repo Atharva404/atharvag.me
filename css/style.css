@@ -160,13 +160,6 @@ button {
     border-radius: 1.25vw;
 }
 
-#photos-portrait {
-    width: 21.875vw;
-    height: 25vw;
-    margin-right: 1.25vw;
-    border-radius: 1.25vw;
-}
-
 .align-pictures {
     display: block;
     grid-column: 2 / 12;
