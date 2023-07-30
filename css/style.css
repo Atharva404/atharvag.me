@@ -176,7 +176,14 @@ button {
 	color: transparent;
 	background-image: url('../image/spain2.jpg');
 }
-
+#add-photo-laf {
+    font-size: 4vw;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/laf1.png');
+}
 #add-photo-london {
     font-size: 4vw;
 	font-weight: 700;
@@ -208,6 +215,15 @@ button {
 	-webkit-background-clip: text;
 	color: transparent;
 	background-image: url('../image/Paris3.JPG');
+}
+
+#add-photo-dubai {
+    font-size: 4vw;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/dubai2.JPG');
 }
 
 p {
