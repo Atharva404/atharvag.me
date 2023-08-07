@@ -154,7 +154,7 @@ button {
 }
 
 #photos-church {
-    width: 21.875vw;
+    width: 20vw;
     height: 25vw;
     margin-right: 1.25vw;
     border-radius: 1.25vw;
@@ -166,6 +166,23 @@ button {
     margin-top: 1.875vw;
     margin-bottom: 1.875vw;
     margin-left: 9.688vw;
+}
+
+#add-photo-dallas {
+    font-size: 4vw;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/dallas1.JPG');
+}
+#add-photo-tok {
+    font-size: 4vw;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/tok1.jpg');
 }
 
 #add-photo-spain {
