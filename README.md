@@ -12,3 +12,9 @@ Making this digital portilio allowed me to become comfortable with web developme
 In the future:
 - My next steps for this project is to keep adding my projects + academic achievements as I progress through university
 - add animations and more sections to the website
+
+
+
+Ideas to implement:
+- Have a bubble animation when page opens for the tiles
+- Add a work experience tab
