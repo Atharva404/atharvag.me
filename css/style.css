@@ -31,6 +31,14 @@ div {
     padding-left: 11vw;
     gap: 5px;
 }
+.experience-box {
+    display: grid;
+    grid-template-columns: repeat(2, 35.25vw);
+    grid-template-rows: repeat(3, 25.625vw);
+    text-align: center;
+    padding-left: 1vw;
+    gap: 5px;
+}
 .project-box {
     margin-top: 6.25vw;
     margin-bottom: 3.125vw;
@@ -147,15 +155,15 @@ button {
 }
 
 .photos {
-    width: 38.75vw;
-    height: 25vw;
+    width: 23vw;
+    height: 15vw;
     border-radius: 1.25vw;
     margin-right: 1.25vw;
 }
 
 #photos-church {
-    width: 20vw;
-    height: 25vw;
+    width: 12vw;
+    height: 15vw;
     margin-right: 1.25vw;
     border-radius: 1.25vw;
 }
@@ -169,7 +177,7 @@ button {
 }
 
 #add-photo-dallas {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -177,7 +185,7 @@ button {
 	background-image: url('../image/dallas1.JPG');
 }
 #add-photo-tok {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -186,7 +194,7 @@ button {
 }
 
 #add-photo-spain {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -194,7 +202,7 @@ button {
 	background-image: url('../image/spain2.jpg');
 }
 #add-photo-laf {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -202,7 +210,7 @@ button {
 	background-image: url('../image/laf3.png');
 }
 #add-photo-london {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -210,7 +218,7 @@ button {
 	background-image: url('../image/London1.JPG');
 }
 #add-photo-mexico {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -218,7 +226,7 @@ button {
 	background-image: url('../image/cancun.JPG');
 }
 #add-photo-zurich {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -226,7 +234,7 @@ button {
 	background-image: url('../image/zuric1.JPG');
 }
 #add-photo-paris {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -235,7 +243,7 @@ button {
 }
 
 #add-photo-dubai {
-    font-size: 4vw;
+    font-size: 3vw;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -246,4 +254,10 @@ button {
 p {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 300;
+}
+
+.experience-img { 
+    display: inline;
+    height: 20.875vw;
+    width: 36.875vw;
 }
