@@ -184,6 +184,14 @@ button {
 	color: transparent;
 	background-image: url('../image/dallas1.JPG');
 }
+#add-photo-ny {
+    font-size: 3vw;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../image/New_York4.JPG');
+}
 #add-photo-tok {
     font-size: 3vw;
 	font-weight: 700;
